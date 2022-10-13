@@ -12,6 +12,8 @@
 		8CEE5B6A28F7E5B600EB2A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE5B6928F7E5B600EB2A42 /* Assets.xcassets */; };
 		8CEE5B6D28F7E5B600EB2A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEE5B6C28F7E5B600EB2A42 /* Preview Assets.xcassets */; };
 		8CEE5B7828F7ED0100EB2A42 /* CloudKitMagicCRUD in Frameworks */ = {isa = PBXBuildFile; productRef = 8CEE5B7728F7ED0100EB2A42 /* CloudKitMagicCRUD */; };
+		8CEE5B7B28F7EDE300EB2A42 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE5B7928F7EDE300EB2A42 /* Message.swift */; };
+		8CEE5B7C28F7EDE300EB2A42 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEE5B7A28F7EDE300EB2A42 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		8CEE5B6928F7E5B600EB2A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEE5B6C28F7E5B600EB2A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CEE5B7528F7EA2500EB2A42 /* SwiftUIChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIChat.entitlements; sourceTree = "<group>"; };
+		8CEE5B7928F7EDE300EB2A42 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8CEE5B7A28F7EDE300EB2A42 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		8CEE5B7328F7E77100EB2A42 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8CEE5B7A28F7EDE300EB2A42 /* Extensions.swift */,
+				8CEE5B7928F7EDE300EB2A42 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEE5B7B28F7EDE300EB2A42 /* Message.swift in Sources */,
 				8CEE5B6828F7E5B400EB2A42 /* ContentView.swift in Sources */,
 				8CEE5B6628F7E5B400EB2A42 /* SwiftUIChatApp.swift in Sources */,
+				8CEE5B7C28F7EDE300EB2A42 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
